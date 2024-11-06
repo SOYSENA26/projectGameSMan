@@ -1,0 +1,177 @@
+    .background {
+        background-image: url('https://i.gifer.com/87zg.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        width: 98vw;
+        height: 97vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+    
+
+    .loginContainer, .registerContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 400px;
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+    
+    .title {
+        font-size: 3rem;
+        color: #ff5733;
+        font-family: 'Press Start 2P', cursive;
+        text-shadow: 0 0 8px #ff5733, 0 0 15px #ff5733, 0 0 20px #ff5733;
+        animation: flicker 1.5s infinite alternate;
+    }
+    
+    .subtitle {
+        font-size: 2rem;
+        color:  #ffbd69;
+        text-shadow: 0 0 5px  #ffbd69, 0 0 10px  #ffbd69;
+        margin-top: 20px;
+        font-family: 'Press Start 2P', cursive;
+    }
+    
+    .inputGroup {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 15px;
+        width: 100%;
+        max-width: 300px;
+    }
+    
+    .label {
+        color: #33c1ff;
+        font-family: 'Press Start 2P', cursive;
+        margin-bottom: 5px;
+    }
+    
+    .inputField {
+        width: 100%;
+        padding: 10px;
+        font-size: 1rem;
+        color: #000000;
+        border: 2px solid #b833ff;
+        border-radius: 5px;
+        background-color: #ffffff;
+        outline: none;
+        transition: all 0.3s ease;
+    }
+    
+    .inputField:focus {
+        border-color: #33ff77;
+        box-shadow: 0 0 8px #33ff77;
+    }
+    
+    .submitButton {
+        font-size: 1.2rem;
+        color: #ffffff;
+        background-color: #ff3366;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-family: 'Press Start 2P', cursive;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 0 8px  #ff3366;
+    }
+    
+    .submitButton:hover {
+        background-color: #33ffad;
+        box-shadow: 0 0 10px #33ffad, 0 0 15px #33ffad;
+    }
+    
+    .registerLink {
+        margin-top: 20px;
+        font-size: 0.9rem;
+        color: #d3d3d3;
+    }
+    
+    .registerButton {
+        background: transparent;
+        color: #ff99cc;
+        cursor: pointer;
+        border: none;
+        font-family: 'Press Start 2P', cursive;
+        text-decoration: underline;
+        margin-left: 5px;
+    }
+    
+    .registerButton:hover {
+        color: #3399ff;
+        text-shadow: 0 0 5px #3399ff;
+    }
+
+    .fileInput {
+        display: none;
+      }
+      
+      .fileInputLabel {
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2rem;
+        color: #f1ff33;
+        transition: color 0.3s ease;
+      }
+      
+      .fileInputLabel:hover .fileIcon {
+        color: #33ff77;
+      }
+      
+      .fileIcon {
+        font-size: 10rem;
+      }
+
+      .profileImageContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .iconWrapper {
+        width: 100px;
+        height: 100px;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .previewImage {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 3px solid #33ff77;
+        
+    }
+
+    .userIcon {
+        font-size: 100px;
+        color: #aaff00;
+    }
+
+
+    
+    @keyframes flicker {
+        0%, 18%, 22%, 25%, 53%, 57%, 100% {
+        text-shadow: 0 0 8px #ff5733, 0 0 15px #ff5733, 0 0 20px #ff5733;
+        }
+        20%, 24%, 55% {
+        text-shadow: none;
+        }
+    }
+    
