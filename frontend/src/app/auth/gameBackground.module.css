@@ -1,16 +1,16 @@
-    .background {
-        background-image: url('https://i.gifer.com/87zg.gif');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        width: 98vw;
-        height: 97vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        overflow: hidden;
-        position: relative;
-    }
+.background {
+    background-image: url('https://i.pinimg.com/originals/7a/61/fe/7a61fe192013a896351c2a315238a36e.gif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
     
 
     .loginContainer, .registerContainer {
